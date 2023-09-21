@@ -1,0 +1,184 @@
+﻿TemplateContainer
+{
+	flex-grow: 1;
+	flex-direction: row;
+}
+.sidebar-field-label
+{
+	min-width: 80px;
+}
+
+#left-sidebox
+{
+	width: 30%;
+	max-width: 300px;
+	flex-grow: 0;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+#navigation-box
+{
+	padding-top: 5px;
+	height: 15%;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+}
+#left-sidebar
+{
+	width: 100%;
+	flex-grow: 1;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+}
+#filter-box
+{
+	padding-top: 10px;
+	height: 15%;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+}
+.left-sidebar-item.unity-list-view__item
+{
+}
+.left-sidebar-item.unity-list-view__item--selected
+{
+	background-color: green;
+}
+.left-sidebar-item-label.unity-label
+{
+	flex-shrink: 32px;
+	margin-left: 36px;
+    -unity-text-align: upper-center;
+}
+.left-sidebar-item-image.unity-image
+{
+	height: 32px;
+	width: 32px;
+}
+
+#right-sidebox
+{
+	width: 20%;
+	padding-top: 10px;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+
+#right-sidebox-top
+{
+	height: 20%;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+#right-sidebox-middle
+{
+	height: 55%;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+#right-sidebox-middle-centered
+{
+	background-image: resource("Images/rts_engine_logo");
+
+	width:64px;
+	height:64px;
+
+	margin-left: 25%;
+	margin-top: 25%;
+	padding-right: 50%;
+	padding-top: 50%;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+#right-sidebox-bottom
+{
+	height: 25%;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+
+#element-box
+{
+	flex-grow: 1;
+
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+#element-title-box
+{
+	height: 15%;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+#element-title
+{
+	padding-top: 10px;
+	align-self: center;
+	color: green;
+	font-size: 18px;
+}
+#element-title {
+    -unity-text-align: upper-center;
+}
+#element-icon
+{
+	width: 64px;
+	height: 64px;
+}
+#element-properties-scroll
+{
+	flex-grow: 1;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+#element-properties-box
+{
+	flex-grow: 1;
+	padding: 5px;
+
+	background-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+}

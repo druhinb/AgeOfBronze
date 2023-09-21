@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <engine:Box name="left-sidebox">
+    <engine:Box name="navigation-box">
+    </engine:Box>
+    <engine:ListView name="left-sidebar"/>
+    <engine:Box name="filter-box">
+    </engine:Box>
+  </engine:Box>
+  <engine:Box name="element-box">
+    <engine:Box name="element-title-box">
+      <engine:TextElement name="element-title"/>
+    </engine:Box>
+    <engine:ScrollView name="element-properties-scroll">
+      <engine:Box name="element-properties-box">
+      </engine:Box>
+    </engine:ScrollView>
+  </engine:Box>
+  <engine:Box name="right-sidebox">
+    <engine:Box name="right-sidebox-top">
+    </engine:Box>
+    <engine:Box name="right-sidebox-middle">
+      <engine:Box name ="right-sidebox-middle-centered">
+      </engine:Box>
+    </engine:Box>
+    <engine:Box name="right-sidebox-bottom">
+    </engine:Box>
+  </engine:Box>
+    
+</engine:UXML>

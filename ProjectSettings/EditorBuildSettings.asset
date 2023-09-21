@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Framework/Game/Menu/MainMenu.unity
+    guid: 25218778d642f0d4b8f3d42e309723eb
+  - enabled: 1
+    path: Assets/Framework/Modules/Singleplayer/Scenes/SingleplayerLobbyMenu.unity
+    guid: 418b61376f0250b40b619295d3466b06
+  - enabled: 1
+    path: Assets/Framework/Modules/Multiplayer/Mirror/Scenes/MultiplayerLobbyMenu_Mirror.unity
+    guid: 62eb928c933f9a14da3517cb2f0e814a
+  - enabled: 1
+    path: Assets/FinalMap.unity
+    guid: 867d8c8013e369d47b411baaa36e775c
+  m_configObjects: {}
